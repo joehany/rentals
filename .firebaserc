@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "test-ci-a296e"
+    "prod": "test-ci-a296e",
+    "dev": "test-ci-dev"
   }
 }

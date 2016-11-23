@@ -19,10 +19,10 @@ module.exports = function(environment) {
     },
     
     firebase: {
-      apiKey: "AIzaSyD7AY0A_X43Ar88GOz6tr78DGVoeUdme1c",
-      authDomain: "test-ci-a296e.firebaseapp.com",
-      databaseURL: "https://test-ci-a296e.firebaseio.com",
-      storageBucket: "test-ci-a296e.appspot.com",
+      apiKey: "AIzaSyDvTW1NqG7SynqJ1L0hN_Xxeb_CTLA5pGQ",
+      authDomain: "test-ci-dev.firebaseapp.com",
+      databaseURL: "https://test-ci-dev.firebaseio.com",
+      storageBucket: "test-ci-dev.appspot.com",
     }
   };
 
@@ -48,12 +48,12 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // Env.firebase = {
-    //   apiKey: "AIzaSyD7AY0A_X43Ar88GOz6tr78DGVoeUdme1c",
-    //   authDomain: "test-ci-a296e.firebaseapp.com",
-    //   databaseURL: "https://test-ci-a296e.firebaseio.com",
-    //   storageBucket: "test-ci-a296e.appspot.com",
-    // }
+    ENV.firebase = {
+      apiKey: "AIzaSyD7AY0A_X43Ar88GOz6tr78DGVoeUdme1c",
+      authDomain: "test-ci-a296e.firebaseapp.com",
+      databaseURL: "https://test-ci-a296e.firebaseio.com",
+      storageBucket: "test-ci-a296e.appspot.com",
+    };
   }
 
   return ENV;
