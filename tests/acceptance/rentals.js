@@ -7,6 +7,6 @@ test('visiting /list-rentals', function(assert) {
   visit('/list-rentals');
 
   andThen(function() {
-    assert.equal(currentURL(), '/list-rentals');
+    assert.equal(currentURL(), '/rentals');
   });
 });

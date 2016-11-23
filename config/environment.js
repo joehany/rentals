@@ -48,7 +48,12 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    // Env.firebase = {
+    //   apiKey: "AIzaSyD7AY0A_X43Ar88GOz6tr78DGVoeUdme1c",
+    //   authDomain: "test-ci-a296e.firebaseapp.com",
+    //   databaseURL: "https://test-ci-a296e.firebaseio.com",
+    //   storageBucket: "test-ci-a296e.appspot.com",
+    // }
   }
 
   return ENV;
